@@ -78,4 +78,4 @@ def apply_laplace_filter(img):
     return cv2.Laplacian(img, cv2.CV_64F)
 
 if __name__ == '__main__':
-    app.run(debug=True,host='0.0.0.0')
+    app.run(debug=True)
